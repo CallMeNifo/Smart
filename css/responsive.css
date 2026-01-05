@@ -1,0 +1,40 @@
+/* Responsive refinements */
+
+@media (max-width: 900px) {
+	.breadcrumb {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem;
+		align-items: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.page-header {
+		text-align: center;
+	}
+
+	.page-header .brand-lockup {
+		justify-content: center;
+	}
+
+	.page-header .page-subtitle {
+		margin: 0 auto;
+		max-width: 28rem;
+	}
+
+	.home-button {
+		left: var(--spacing-sm);
+	}
+}
+
+@media (max-width: 540px) {
+	.cta-row {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.pill-list {
+		width: 100%;
+	}
+}

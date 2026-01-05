@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartEdu International School - Preschool admissions for ages 6 months to 6 years in Sainthamaruthu">
+    <link rel="icon" type="image/png" href="../../Images/EDUIco.png">
+    <link rel="apple-touch-icon" href="../../Images/EDUIco.png">
+    <title>SmartEdu Little Explorers — Sainthamaruthu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+    <link rel="stylesheet" href="../../css/cursor.css">
+    <link rel="stylesheet" href="../../css/loading.css">
+    <link rel="stylesheet" href="../../css/scroll-reveal.css">
+    <link rel="stylesheet" href="../../css/premium-components.css">
+    <link rel="stylesheet" href="../../css/premium-refinements.css">
+    <link rel="stylesheet" href="../../css/custom-scrollbar.css">
+    <link rel="stylesheet" href="../../css/kinetic-typography.css">
+    <link rel="stylesheet" href="../../css/kids.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body class="no-select kids-page">
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">SMART</div>
+            <div class="loading-progress">
+                <div class="loading-progress-bar"></div>
+            </div>
+            <div class="loading-text">Loading</div>
+        </div>
+    </div>
+
+    <div id="cursor"></div>
+    <div id="cursor-trail"></div>
+    <canvas id="bg-canvas"></canvas>
+    <div id="triangle-transition" class="triangle-transition">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+            <polygon points="100,0 100,100 0,100"></polygon>
+        </svg>
+    </div>
+    <a href="../" class="home-button">← Back to Academy</a>
+
+    <div id="smooth-scroll-container">
+
+    <main class="kids-wrapper">
+        <section class="kids-hero scroll-reveal" id="top">
+            <div class="hero-bg-shapes">
+                <span class="shape cloud tiny"></span>
+                <span class="shape cloud"></span>
+                <span class="shape sun"></span>
+                <span class="shape confetti c1"></span>
+                <span class="shape confetti c2"></span>
+                <span class="shape confetti c3"></span>
+            </div>
+            <div class="container kids-hero-grid">
+                <div class="hero-left">
+                    <div class="eyebrow-chip">SMART Educational Academy · Kids</div>
+                    <div class="location-pill">Sainthamaruthu Campus</div>
+                    <h1 class="kids-title">SmartEdu Little Explorers</h1>
+                    <p class="hero-subtitle">SmartEdu International School in Sainthamaruthu offers pre-primary admissions (6 months to 6 years) with LKG and UKG pathways. Where learning begins with joy—enroll for a brighter tomorrow.</p>
+                    <div class="hero-tags">
+                        <span class="tag candy">Ages 6 months–6 years</span>
+                        <span class="tag lime">LKG & UKG</span>
+                        <span class="tag sky">English & Tamil medium</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a class="btn-blob primary" href="tel:+94773689366">Call Admissions</a>
+                        <a class="btn-blob secondary" href="mailto:edu@smartbusinessfusion.com?subject=SmartEdu%20Preschool%20Admissions">Email our team</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <p class="label">Admissions window</p>
+                            <h4>Nov 2025 → Jan 2026</h4>
+                            <p class="tiny">Spots fill fast; tiny class sizes keep things cozy.</p>
+                        </div>
+                        <div class="stat-card">
+                            <p class="label">Fees & uniforms</p>
+                            <h4>Books + stationery: 6000</h4>
+                            <p class="tiny">Uniforms free in the first month; parents can purchase after.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right playful-orbit">
+                    <div class="sun-burst"></div>
+                    <div class="cloud-puff c1"></div>
+                    <div class="cloud-puff c2"></div>
+                    <div class="orbit-card">
+                        <p class="label">Our promise</p>
+                        <h3>Safe, silly, and sparkly learning</h3>
+                        <ul class="orbit-list">
+                            <li>Activity-based learning with friendly, caring teachers.</li>
+                            <li>Play labs for art, nature, music, and story.</li>
+                            <li>Gentle routines that feel like home.</li>
+                        </ul>
+                        <div class="address-box">
+                            <p class="label">Visit us</p>
+                            <p class="address">101A Al Hilal Road<br>Sainthamaruthu, Sri Lanka</p>
+                            <p class="phone">+94 77 368 9366 | +966 55 676 5106</p>
+                        </div>
+                    </div>
+                    <div class="floating-sticker star">Spark Joy</div>
+                    <div class="floating-sticker bubble">Be Kind</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="kids-section kids-programs scroll-reveal" id="programs">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-pill">Program Tracks</div>
+                    <h2>Choose their playful path</h2>
+                    <p class="lead">Activity-based learning crafted for every age stage. We blend languages, movement, and creativity so kids grow confident and curious.</p>
+                </div>
+                <div class="program-grid">
+                    <article class="program-card">
+                        <div class="bubble-tag">6–36 months</div>
+                        <h3>Early Cubs</h3>
+                        <p>Cozy beginnings for our tiniest explorers with sensory play, lullaby time, and social smiles.</p>
+                        <ul>
+                            <li>Soft mats, story corners, and gentle music.</li>
+                            <li>Language play in English and Tamil.</li>
+                            <li>Daily notes to parents.</li>
+                        </ul>
+                    </article>
+                    <article class="program-card highlight">
+                        <div class="bubble-tag">LKG</div>
+                        <h3>Trailblazers</h3>
+                        <p>Lower Kindergarten full of centers, songs, and mini-projects that build early literacy and number sense.</p>
+                        <ul>
+                            <li>Activity stations that rotate weekly.</li>
+                            <li>Confidence-building show-and-tell.</li>
+                            <li>Friendly routines and outdoor play.</li>
+                        </ul>
+                    </article>
+                    <article class="program-card">
+                        <div class="bubble-tag">UKG</div>
+                        <h3>Inventors</h3>
+                        <p>Upper Kindergarten that sparks creativity with story-making, beginner science, and teamwork games.</p>
+                        <ul>
+                            <li>Phonics, early writing, and playful math.</li>
+                            <li>Maker time: build, paint, imagine.</li>
+                            <li>Community projects that feel meaningful.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="kids-section admissions-fun scroll-reveal" id="admissions">
+            <div class="container admissions-grid">
+                <div class="info-card big">
+                    <div class="section-pill">Admissions & Fees</div>
+                    <h3>Ready to join the fun?</h3>
+                    <p class="lead">Admissions opened November 2025 and run through January 2026 for ages 6 months to 6 years.</p>
+                    <ul class="checklist">
+                        <li>Lower Kindergarten (LKG) and Upper Kindergarten (UKG) focus.</li>
+                        <li>English and Tamil medium instruction available.</li>
+                        <li>Where learning begins with joy—enroll for a brighter tomorrow.</li>
+                    </ul>
+                </div>
+                <div class="info-card details">
+                    <div class="bubble-tag">Parent essentials</div>
+                    <div class="detail-line">
+                        <span>Books + stationery</span>
+                        <strong>6000 total</strong>
+                    </div>
+                    <div class="detail-line">
+                        <span>Uniforms</span>
+                        <strong>Free first month</strong>
+                    </div>
+                    <p class="note">Fees exclude books and stationery; uniforms are provided free in the first month with a parent purchase option after.</p>
+                    <div class="cta-stack">
+                        <a class="btn-blob primary" href="mailto:edu@smartbusinessfusion.com?subject=SmartEdu%20Preschool%20Admissions">Request details</a>
+                        <a class="btn-blob secondary" href="tel:+94773689366">Speak to a coordinator</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="kids-section visit-card scroll-reveal" id="visit">
+            <div class="container visit-grid">
+                <div>
+                    <div class="section-pill">Visit the campus</div>
+                    <h3>Come see the smiles</h3>
+                    <p class="lead">Tour our bright classrooms at 101A Al Hilal Road, Sainthamaruthu, Sri Lanka. Peek at the play labs, meet teachers, and watch tiny humans thrive.</p>
+                    <div class="badge-row playful">
+                        <span class="tag sky">Guided tours</span>
+                        <span class="tag candy">Friendly teachers</span>
+                        <span class="tag lime">Safe & joyful</span>
+                    </div>
+                </div>
+                <div class="cta-stack">
+                    <a class="btn-blob primary" href="tel:+94773689366">Call to schedule</a>
+                    <a class="btn-blob secondary" href="mailto:edu@smartbusinessfusion.com?subject=SmartEdu%20Preschool%20Visit">Email to book</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer scroll-reveal">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-card">
+                    <div class="brand-lockup">
+                        <img src="../../Images/SMARTIco.png" alt="SMART Holding Business Fusion icon">
+                        <h3>SMART Holding Business Fusion</h3>
+                    </div>
+                    <p class="footer-tagline">SmartEdu Little Explorers — where learning begins with joy.</p>
+                    <span class="footer-pill">Kids · LKG · UKG</span>
+                </div>
+                <div class="footer-card">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:SMART@smartbusinessfusion.com">Main: SMART@smartbusinessfusion.com</a></li>
+                        <li><a href="mailto:info@smartbusinessfusion.com">Info: info@smartbusinessfusion.com</a></li>
+                        <li><a href="mailto:edu@smartbusinessfusion.com">Education: edu@smartbusinessfusion.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h4>Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="../../amusements/">SMART Amusement World</a></li>
+                        <li><a href="../">SMART Educational Academy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> SMART Holding Business Fusion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="../../js/main.js"></script>
+    <script src="../../js/loading.js"></script>
+    <script src="../../js/custom-scroll.js"></script>
+    <script src="../../js/3d-background.js"></script>
+    <script src="../../js/cursor.js"></script>
+    <script src="../../js/scroll-animations.js"></script>
+    <script src="../../js/premium-animations.js"></script>
+    <script src="../../js/security.js"></script>
+</body>
+</html>
