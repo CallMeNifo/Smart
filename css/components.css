@@ -127,6 +127,17 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.04);
 }
 
+.card-contact {
+    margin: 0.35rem 0 0;
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+}
+
+.card-contact a {
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
 .hero-visual {
     display: flex;
     justify-content: flex-end;

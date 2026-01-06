@@ -26,6 +26,32 @@
 	.home-button {
 		left: var(--spacing-sm);
 	}
+
+	.divisions-grid {
+		grid-template-columns: 1fr;
+		gap: var(--spacing-lg);
+	}
+
+	.division-card {
+		min-height: auto;
+	}
+
+	.card-3d-content {
+		gap: var(--spacing-sm);
+	}
+
+	.hero-logo img {
+		width: 90vw;
+		max-width: 520px;
+	}
+
+	.btn-primary,
+	.btn-secondary,
+	.primary-cta,
+	.secondary-cta {
+		width: 100%;
+		justify-content: center;
+	}
 }
 
 @media (max-width: 540px) {
@@ -36,5 +62,13 @@
 
 	.pill-list {
 		width: 100%;
+	}
+
+	.container {
+		padding: 0 var(--spacing-sm);
+	}
+
+	.section-title {
+		text-align: center;
 	}
 }

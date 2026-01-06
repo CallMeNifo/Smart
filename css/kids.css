@@ -324,11 +324,14 @@
     color: #16172f;
 }
 .address-box .address,
-.address-box .phone {
+.address-box .phone,
+.address-box .email {
     color: #16172f;
 }
 
 .address-box .phone { margin: 0.25rem 0 0; }
+.address-box .email { margin: 0.25rem 0 0; }
+.address-box a { color: #205587; font-weight: 800; }
 
 .floating-sticker {
     position: absolute;
