@@ -21,6 +21,8 @@
     transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
     isolation: isolate;
     font-family: var(--font-primary);
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 .btn-primary {
